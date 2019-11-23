@@ -1,0 +1,84 @@
+/*Set the style for the floating header*/
+ul.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40;
+    padding-right: 40;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: rgb(112, 34, 34);
+}
+/*Set the style for text in the navbar*/
+li.da {
+    display: inline-block;
+    font-size: 18px;
+}
+li {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+/*Set the style for links in the navbar*/
+li a.title{
+    font-family: "Geostar Fill", cursive;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    text-decoration: none;
+}
+li a.content{
+    font-family: "Odibee Sans", cursive;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 16px;
+    text-decoration: none;
+}
+/*Set the style for visited / hovered and active links*/
+a:visited {
+    color: rgb(184, 184, 184);
+}
+li a:hover {
+    background-color: rgb(207, 18, 18);
+    color: white;
+}
+/*Set the background color*/
+body {
+    background-color: rgb(39, 1, 1);
+}
+/*Set the style for body text*/
+div.content {
+     margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding: 16px;
+    color: white;
+    background-color: rgb(85, 11, 11);
+}
+h1 {
+    font-size: 48px;
+    font-family: "Oswald", sans-serif;
+}
+h2 {
+    font-size: 32px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+p {
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+}
+p.end{
+    font-size: 13px;
+    font-family:"Lato", sans-serif;
+    color: white;
+    text-align: center;
+}
+a {
+    color: white;
+}
