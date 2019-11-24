@@ -39,7 +39,7 @@ li a.content{
     text-decoration: none;
 }
 /*Set the style for visited / hovered and active links*/
-a:visited a:hover {
+a:visited, a:hover {
     color: rgb(184, 184, 184);
 }
 li a:hover {
